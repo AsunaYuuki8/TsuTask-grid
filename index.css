@@ -2,19 +2,26 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: hsl(210, 45%, 95%);
-    position: relative;
 }
-
 /*saerto styles*/
+.container {
+   display:grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-auto-rows: minmax(200px,auto);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
 .card {
-    position: absolute;
-    border-radius: 10px;
+    border-radius: 10px;/*insd 10px*/
     padding: 20px;
     box-sizing: border-box;
     margin: 12px;
     color: hsl(0, 0%, 100%)
 }
 
+/*colors*/
 .prim{
     background-color: hsl(263, 55%, 52%);
 }
@@ -32,19 +39,23 @@ body {
     color: hsl(217, 19%, 35%);
 }
 
+/*texstis dastilva*/
 .name{
     font-weight: bold;
 
 }
 
 .verified{
-    opacity: 0.6;/*an 0.5*/
+    opacity: 0.5;/*an 0.6*/
 }
 .quote{
     margin-top: 10px;
     opacity: 0.7;
 }
-/*pozicireba*/
+/*pozicireba 2varianti*/
+
+
+/* ganlagebis 1 varianti
 #card1{
     width: 540px;
     height: 282px;
@@ -59,13 +70,13 @@ body {
 }
 #card3{
     width: 255px;
-    height: 275px;
+    height: 269px;
     top: 326px;
     left: 165px;
 }
 #card4{
     width: 540px;
-    height: 275px;
+    height: 269px;
     top: 326px;
     left: 450px;
 }
@@ -74,4 +85,13 @@ body {
     height: 592px;
     top: 26px;
     left: 1020px;
-}
+}*/
+
+/*
+@media (max-width: 768px) {
+    .container {
+      grid-template-columns: 1fr; /* ყველა ბლოკი ერთ სვეტში */
+   /* }
+  } */
+ 
+  
