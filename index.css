@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsl(210, 45%, 95%);
+    position: relative;
+}
+
+/*saerto styles*/
+.card {
+    position: absolute;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 12px;
+    color: hsl(0, 0%, 100%)
+}
+
+.prim{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.dark-blue{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.blackish-blue{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.white{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+.name{
+    font-weight: bold;
+
+}
+
+.verified{
+    opacity: 0.6;/*an 0.5*/
+}
+.quote{
+    margin-top: 10px;
+    opacity: 0.7;
+}
+/*pozicireba*/
+#card1{
+    width: 540px;
+    height: 282px;
+    top: 26px;
+    left: 165px;
+}
+#card2{
+    width: 255px;
+    height: 282px;
+    top: 26px;
+    left: 735px;
+}
+#card3{
+    width: 255px;
+    height: 275px;
+    top: 326px;
+    left: 165px;
+}
+#card4{
+    width: 540px;
+    height: 275px;
+    top: 326px;
+    left: 450px;
+}
+#card5{
+    width: 255px;
+    height: 592px;
+    top: 26px;
+    left: 1020px;
+}
